@@ -1,0 +1,32 @@
+.header_menu-box{
+    flex: 1 ;
+}
+.header_menu{
+    justify-content: center;
+}
+.header_menu li:first-child {
+    margin-left: 0;
+}
+.header_menu li {
+    margin-left: 4rem;
+}
+.header_language-container{
+    flex: 0;
+}
+
+.accounts_text p {
+    margin-top: 2rem;
+}
+.accounts_text p:nth-child(2){
+    margin-top: 2rem;
+}
+
+.choose h2 {
+    text-align: center;
+    margin: 6.5rem 0 2rem;
+  }
+  .choose > h3{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 5rem auto;
+  }

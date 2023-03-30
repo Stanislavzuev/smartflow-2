@@ -1,0 +1,13 @@
+.trade_content{
+    width: 30%;
+}
+
+.header_menu li {
+    margin-left: 2.5rem;
+}
+.header_buttons {
+    margin-left: 3rem;
+}
+.header {
+    padding: calc(var(--indent) * 0.1) var(--indent) calc(var(--indent) * 0.4) var(--indent);
+} 

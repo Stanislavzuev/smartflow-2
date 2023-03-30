@@ -1,0 +1,15 @@
+.header_menu-box{
+    flex: 1 ;
+}
+.header_menu{
+    justify-content: center;
+}
+.header_menu li:first-child {
+    margin-left: 0;
+}
+.header_menu li {
+    margin-left: 4rem;
+}
+.header_language-container{
+    flex: 0;
+}

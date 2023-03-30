@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img_smartflow/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/repeated-smartflow.css">
+    <link rel="stylesheet" href="css/style-startflow.css">
+
+    <title>SmartFlow</title> 
+</head>
+<body>
+    <header class="header header_white">
+        <a href="/"  class="header_logo"><img src="img_smartflow/logo_white_cut.png" alt=""></a>
+        <div class="header_container">
+            <nav class="header_menu-box">
+                <ul class="header_menu">
+                    <li><a href="company.html"><h3>Company</h3></a></li>
+                    <li><a href="trade.html"><h3>Trade</h3></a></li>
+                    <li><a href="analytics.html"><h3>Analytics</h3></a></li>
+                    <li><a href="news.html"><h3>News</h3></a></li>
+                    <li><a href="contacts.html"><h3>Contacts</h3></a></li>
+                </ul> 
+                <!-- <div class="header_language-container">
+                    <div class="header_language-switcher">
+                        <button class="language_switcher-header"><h3>en</h3></button>
+                        <div class="swither_body-container">
+                            <ul class="language_switcher-body ">
+                                <li class="change"><p>en</p></li>
+                                <li><p><a href="lang/de">de</a></p></li>  
+                                <li><p><a href="lang/it">it</a></p></li>  
+                                <li><p><a href="lang/pl">pl</a></p></li>  
+                                <li><p><a href="lang/ru">ru</a></p></li>  
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+            </nav>
+           
+            <div class="header_buttons">   
+                <!-- <div class="button_white"><a href="https://client.techsolution.broker/singin" class="header_login"><h3>Login</h3></a></div> -->
+                <a href="https://office.smartflow.work/login?redirectFrom=/" class="button_black_smartflow"><h3>Login</h3></a>
+                <a href="https://office.smartflow.work/register" class="button_black_smartflow"><h3>Register</h3></a>
+            </div>
+        </div>
+        <div class="header_burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+       <section class="top_section_repeated" id="analytics_top">
+            <div class="top_section_repeated_container">
+                <h1>Trading conditions</h1>
+                <p>To make trades, a trader must know features of each trading session, technical analysis, money management basics, etc.
+                </p>
+                <p>
+                    We provide clients with specialized programs, analytics and audit of your portfolio by a professional analyst to reach market prepared.</p>
+                <div class="button_blue">
+                    <h3>Become a trader</h3>
+                </div>
+            </div>
+            <!-- <div class="top_section_repeated_image">
+                <img src="img_smartflow/analytics/top_section.png" alt="">
+            </div> -->
+        </section>
+        <section class="analytics_graphs">
+            <article class="econoimic graph-standart">
+                <div class="graph-standart_header">
+                    <h2>Economic calendar for forex traders            </h2>
+                    <p>An obligatory part of the strategy of a professional trader 
+                        is a trading plan. Thanks to the Economic Calendar, you 
+                        can plan trades down to the minute, taking into account 
+                        upcoming economic reports, consensus forecasts and 
+                        estimated volatility. 
+                    </p>
+                </div>
+                <div class="econoimic_graph graph-standart_graph">
+                      <!-- TradingView Widget BEGIN -->
+                      <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/currencies/economic-calendar/" rel="noopener" target="_blank"><span class="blue-text">Economic Calendar</span></a> by TradingView</div> -->
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+                        {
+                        "colorTheme": "light",
+                        "isTransparent": false,
+                        "width": "100%",
+                        "height": "100%",
+                        "locale": "en",
+                        "importanceFilter": "-1,0,1",
+                        "currencyFilter": "USD,EUR,ITL,NZD,CHF,AUD,FRF,JPY,ZAR,TRL,CAD,DEM,MXN,ESP,GBP"
+                    }
+                        </script>
+                    </div>
+                    <!-- TradingView Widget END -->
+                </div>
+            </article>
+            <article class="market-condition graph-standart">
+                <div class="graph-standart_header">
+                    <h2>Market Condition
+                    </h2>
+                    <p>The current state of the market for financial instruments on the market. Allows you to find out the price for a specific time and see the dynamics for different periods.
+                    </p>
+                </div>
+                <div class="market-condition_graph graph-standart_graph">
+                    <!-- <img src="img/analytics/1.svg" alt=""> -->
+                    <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Financial Markets</span></a> by TradingView</div> -->
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                        {
+                        "colorTheme": "light",
+                        "dateRange": "12M",
+                        "showChart": true,
+                        "locale": "en",
+                        "width": "100%",
+                        "height": "100%",
+                        "largeChartUrl": "",
+                        "isTransparent": false,
+                        "showSymbolLogo": true,
+                        "showFloatingTooltip": false,
+                        "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                        "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                        "gridLineColor": "rgba(240, 243, 250, 0)",
+                        "scaleFontColor": "rgba(106, 109, 120, 1)",
+                        "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                        "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                        "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                        "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                        "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                        "tabs": [
+                        {
+                            "title": "Indices",
+                            "symbols": [
+                            {
+                                "s": "FOREXCOM:SPXUSD",
+                                "d": "S&P 500"
+                            },
+                            {
+                                "s": "FOREXCOM:NSXUSD",
+                                "d": "US 100"
+                            },
+                            {
+                                "s": "FOREXCOM:DJI",
+                                "d": "Dow 30"
+                            },
+                            {
+                                "s": "INDEX:NKY",
+                                "d": "Nikkei 225"
+                            },
+                            {
+                                "s": "INDEX:DEU40",
+                                "d": "DAX Index"
+                            },
+                            {
+                                "s": "FOREXCOM:UKXGBP",
+                                "d": "UK 100"
+                            }
+                            ],
+                            "originalTitle": "Indices"
+                        },
+                        {
+                            "title": "Futures",
+                            "symbols": [
+                            {
+                                "s": "CME_MINI:ES1!",
+                                "d": "S&P 500"
+                            },
+                            {
+                                "s": "CME:6E1!",
+                                "d": "Euro"
+                            },
+                            {
+                                "s": "COMEX:GC1!",
+                                "d": "Gold"
+                            },
+                            {
+                                "s": "NYMEX:CL1!",
+                                "d": "Crude Oil"
+                            },
+                            {
+                                "s": "NYMEX:NG1!",
+                                "d": "Natural Gas"
+                            },
+                            {
+                                "s": "CBOT:ZC1!",
+                                "d": "Corn"
+                            }
+                            ],
+                            "originalTitle": "Futures"
+                        },
+                        {
+                            "title": "Bonds",
+                            "symbols": [
+                            {
+                                "s": "CME:GE1!",
+                                "d": "Eurodollar"
+                            },
+                            {
+                                "s": "CBOT:ZB1!",
+                                "d": "T-Bond"
+                            },
+                            {
+                                "s": "CBOT:UB1!",
+                                "d": "Ultra T-Bond"
+                            },
+                            {
+                                "s": "EUREX:FGBL1!",
+                                "d": "Euro Bund"
+                            },
+                            {
+                                "s": "EUREX:FBTP1!",
+                                "d": "Euro BTP"
+                            },
+                            {
+                                "s": "EUREX:FGBM1!",
+                                "d": "Euro BOBL"
+                            }
+                            ],
+                            "originalTitle": "Bonds"
+                        },
+                        {
+                            "title": "Forex",
+                            "symbols": [
+                            {
+                                "s": "FX:EURUSD",
+                                "d": "EUR/USD"
+                            },
+                            {
+                                "s": "FX:GBPUSD",
+                                "d": "GBP/USD"
+                            },
+                            {
+                                "s": "FX:USDJPY",
+                                "d": "USD/JPY"
+                            },
+                            {
+                                "s": "FX:USDCHF",
+                                "d": "USD/CHF"
+                            },
+                            {
+                                "s": "FX:AUDUSD",
+                                "d": "AUD/USD"
+                            },
+                            {
+                                "s": "FX:USDCAD",
+                                "d": "USD/CAD"
+                            }
+                            ],
+                            "originalTitle": "Forex"
+                        }
+                        ]
+                    }
+                        </script>
+                    </div>
+                    <!-- TradingView Widget END -->
+                </div>
+            </article>
+            <article class="data ">
+                <div class="data_leaders ">
+                <div class="graph-standart_header">
+
+                        <h2>Market leaders
+                        </h2>
+                        <p>Make fast trading decisions with market leader metrics. 
+                        </p>
+                    </div>
+                
+                    <div class="data_leaders-graph ">
+                        <!-- <img src="img/analytics/2.svg" alt=""> -->
+                        <!-- TradingView Widget BEGIN -->
+                        <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-usa/" rel="noopener" target="_blank"><span class="blue-text">Stock Market Today</span></a> by TradingView</div> -->
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+                            {
+                            "colorTheme": "light",
+                            "dateRange": "12M",
+                            "exchange": "US",
+                            "showChart": true,
+                            "locale": "en",
+                            "width": "100%",
+                            "height": "100%",
+                            "largeChartUrl": "",
+                            "isTransparent": false,
+                            "showSymbolLogo": false,
+                            "showFloatingTooltip": false,
+                            "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                            "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                            "gridLineColor": "rgba(240, 243, 250, 0)",
+                            "scaleFontColor": "rgba(106, 109, 120, 1)",
+                            "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                            "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                            "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                            "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                            "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+                        }
+                            </script>
+                        </div>
+                        <!-- TradingView Widget END -->
+
+                   
+                    </div>
+                </div>
+                <div class="data_fundamental ">
+                <div class="graph-standart_header">
+
+                    <h2>Fundamental Data
+                    </h2>
+                    <p>Kick the tires on the fundamentals with this deep dive 
+                        into how a company is doing beyond simply its stock 
+                        price. 
+
+                    </p>
+                    </div>
+                    <div class="data_fundamental-graph ">
+                        <!-- <img src="img/analytics/3.svg" alt=""> -->
+                        <!-- TradingView Widget BEGIN -->
+                        <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/financials-overview/" rel="noopener" target="_blank"><span class="blue-text">AAPL Fundamental Data</span></a> by TradingView</div> -->
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-financials.js" async>
+                            {
+                            "colorTheme": "light",
+                            "isTransparent": false,
+                            "largeChartUrl": "",
+                            "displayMode": "regular",
+                            "width": "100%",
+                            "height": "100%",
+                            "symbol": "NASDAQ:AAPL",
+                            "locale": "en"
+                        }
+                            </script>
+                        </div>
+                        <!-- TradingView Widget END -->
+                    </div>
+                </div>
+            </article>
+            <article class="real-time graph-standart">
+                <div class="graph-standart_header">
+
+                <h2>Real-time trading charts 
+                </h2>
+                <p>Use the main tool of traders - technical analysis on the 
+                    chart of a financial instrument. 
+
+                </p>
+                </div>
+                <div class="real-time_graph graph-standart_graph">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container">
+                        <div id="tradingview_57644"></div>
+                        <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div> -->
+                        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                        <script type="text/javascript">
+                        new TradingView.widget(
+                        {
+                        "width": "100%",
+                        "height": "100%",
+                        "symbol": "NASDAQ:AAPL",
+                        "interval": "D",
+                        "timezone": "Etc/UTC",
+                        "theme": "light",
+                        "style": "1",
+                        "locale": "en",
+                        "toolbar_bg": "#f1f3f6",
+                        "enable_publishing": false,
+                        "allow_symbol_change": true,
+                        "container_id": "tradingview_57644"
+                    }
+                        );
+                        </script>
+                    </div>
+                    <!-- TradingView Widget END -->
+                </div>
+            </article>
+            <!-- <article class="forex graph-standart">
+                <div class="graph-standart_header">
+
+                <h2>Forex Cross Rates 
+                </h2>
+                <p>This one allows you to display real-time quotes of 
+                    selected currencies in comparison to other major 
+                    currencies. 
+                </p>
+                </div>
+                <div class="forex-graph graph-standart_graph">
+                    <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js" async>
+                        {
+                        "width": "100%",
+                        "height": "100%",
+                        "currencies": [
+                        "EUR",
+                        "USD",
+                        "JPY",
+                        "GBP",
+                        "CHF",
+                        "AUD",
+                        "CAD",
+                        "NZD",
+                        "CNY"
+                        ],
+                        "isTransparent": false,
+                        "colorTheme": "light",
+                        "locale": "en"
+                    }
+                        </script>
+                    </div>
+                </div>
+            </article> -->
+        </section>
+        <section class="repeated_2 analytic_baner_new">
+            <div class="repeated_2_left">
+                <div class="repeated_2_left-text">
+                    <h2>Ready to trade?</h2>
+                    <p>Get started with your trading account today.</p>
+                </div>
+            </div>
+            <div class="repeated_2_right">
+                <form action="https://office.smartflow.work/register" class="repeated_2_form">
+                    <input type="text" placeholder="Name" class="input_white" >
+                    <input type="text" placeholder="Last name" class="input_white" >
+                    <button class="button_black"><h3>Register</h3></button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer_header">
+            <a href="/" class="footer_logo"><img src="img_smartflow/logo_white_cut.png" alt=""></a>
+            <nav class="footer_menu-box">
+                <ul class="footer_menu">
+                    <li><a href="company.html"><h3>Company</h3></a></li>
+                    <li><a href="trade.html"><h3>Trade</h3></a></li>
+                    <li><a href="analytics.html"><h3>Analytics</h3></a></li>
+                    <li><a href="news.html"><h3>News</h3></a></li>
+                    <li><a href="contacts.html"><h3>Contacts</h3></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer_content">
+            <h3>Risk warning</h3>
+            <p>Trading derivatives and leveraged products carries a high level of risk, including the risk of losing significantly more than your initial investment. This is not suitable for everyone. Before making any decision regarding a financial product, you should review our Product Disclosure Statement (PDS) and Financial Services Guide (FSG) available on our website and seek independent advice if necessary.
+            </p>
+            <h4>©SmartFlow Ltd. 2023. All rights reserved.
+                </h4>
+        </div>
+       
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> 
+
+
